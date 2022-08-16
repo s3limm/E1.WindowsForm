@@ -23,6 +23,9 @@ namespace Windows_Form
             txtb3.Text = name;  
         }
 
-     
+        private void F3_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hosgeldınız...");
+        }
     }
 }

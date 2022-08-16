@@ -67,6 +67,7 @@
             this.Controls.Add(this.txtb2);
             this.Name = "F3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.F3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
