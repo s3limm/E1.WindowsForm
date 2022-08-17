@@ -58,22 +58,22 @@
     <Compile Include="Forms\c1.trial\c1.trial.Designer.cs">
       <DependentUpon>c1.trial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FindMe.cs">
+    <Compile Include="Forms\FindMe\FindMe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FindMe.Designer.cs">
+    <Compile Include="Forms\FindMe\FindMe.Designer.cs">
       <DependentUpon>FindMe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Transfer.cs">
+    <Compile Include="Forms\Transfer\Transfer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Transfer.Designer.cs">
+    <Compile Include="Forms\Transfer\Transfer.Designer.cs">
       <DependentUpon>Transfer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\transfer2.cs">
+    <Compile Include="Forms\transfer2\transfer2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\transfer2.Designer.cs">
+    <Compile Include="Forms\transfer2\transfer2.Designer.cs">
       <DependentUpon>transfer2.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\example1\example1.cs">
@@ -82,10 +82,10 @@
     <Compile Include="Forms\example1\example1.Designer.cs">
       <DependentUpon>example1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\incrase.cs">
+    <Compile Include="Forms\incrase\incrase.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\incrase.Designer.cs">
+    <Compile Include="Forms\incrase\incrase.Designer.cs">
       <DependentUpon>incrase.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Program.cs" />
@@ -96,19 +96,19 @@
     <EmbeddedResource Include="Forms\c1.trial\c1.trial.resx">
       <DependentUpon>c1.trial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FindMe.resx">
+    <EmbeddedResource Include="Forms\FindMe\FindMe.resx">
       <DependentUpon>FindMe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Transfer.resx">
+    <EmbeddedResource Include="Forms\Transfer\Transfer.resx">
       <DependentUpon>Transfer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\transfer2.resx">
+    <EmbeddedResource Include="Forms\transfer2\transfer2.resx">
       <DependentUpon>transfer2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\example1\example1.resx">
       <DependentUpon>example1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\incrase.resx">
+    <EmbeddedResource Include="Forms\incrase\incrase.resx">
       <DependentUpon>incrase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
