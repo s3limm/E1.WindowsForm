@@ -46,70 +46,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs">
+    <Compile Include="Forms\c1\c1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Calculator.Designer.cs">
-      <DependentUpon>Calculator.cs</DependentUpon>
+    <Compile Include="Forms\c1\c1.Designer.cs">
+      <DependentUpon>c1.cs</DependentUpon>
     </Compile>
-    <Compile Include="CalculatorTrial.cs">
+    <Compile Include="Forms\c1.trial\c1.trial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CalculatorTrial.Designer.cs">
-      <DependentUpon>CalculatorTrial.cs</DependentUpon>
+    <Compile Include="Forms\c1.trial\c1.trial.Designer.cs">
+      <DependentUpon>c1.trial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\FindMe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\FindMe.Designer.cs">
+      <DependentUpon>FindMe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Forms\Transfer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Forms\Transfer.Designer.cs">
+      <DependentUpon>Transfer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Forms\transfer2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Forms\transfer2.Designer.cs">
+      <DependentUpon>transfer2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4Ödev.cs">
+    <Compile Include="Forms\example1\example1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4Ödev.Designer.cs">
-      <DependentUpon>Form4Ödev.cs</DependentUpon>
+    <Compile Include="Forms\example1\example1.Designer.cs">
+      <DependentUpon>example1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="Forms\incrase.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="Forms\incrase.Designer.cs">
+      <DependentUpon>incrase.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Forms\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Calculator.resx">
-      <DependentUpon>Calculator.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\c1\c1.resx">
+      <DependentUpon>c1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CalculatorTrial.resx">
-      <DependentUpon>CalculatorTrial.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\c1.trial\c1.trial.resx">
+      <DependentUpon>c1.trial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FindMe.resx">
+      <DependentUpon>FindMe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Transfer.resx">
+      <DependentUpon>Transfer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\transfer2.resx">
+      <DependentUpon>transfer2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4Ödev.resx">
-      <DependentUpon>Form4Ödev.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\example1\example1.resx">
+      <DependentUpon>example1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\incrase.resx">
+      <DependentUpon>incrase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -131,7 +131,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Forms\App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

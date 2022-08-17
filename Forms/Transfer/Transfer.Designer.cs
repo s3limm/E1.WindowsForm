@@ -38,6 +38,7 @@
             this.txb1.Name = "txb1";
             this.txb1.Size = new System.Drawing.Size(225, 20);
             this.txb1.TabIndex = 0;
+            this.txb1.TextChanged += new System.EventHandler(this.txb1_TextChanged);
             // 
             // b1
             // 

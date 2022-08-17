@@ -22,5 +22,10 @@ namespace Windows_Form
             string name = txb1.Text;
             this.Text = name;
         }
+
+        private void txb1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
